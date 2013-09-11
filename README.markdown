@@ -7,13 +7,8 @@
 ### Testing
 
     mvn test
-
-### To put on heroku
-
-    heroku create
-    git push heroku master
-
-### To run anywhere else
-
-    mvn package
-    java -jar target/*-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+    
+    
+### Roadmap
+ 1. Move to [mustache templates](https://github.com/spullara/mustache.java)
+ 2. Persistent storage with [MySQL](https://github.com/twitter/finagle/tree/master/finagle-example/src/main/scala/com/twitter/finagle/example/mysql)
